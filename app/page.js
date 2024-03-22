@@ -138,8 +138,17 @@ export default function Home() {
           </div>
         </div>
         
-        <HackbyteLogo />
+        <div className="pt-12 lg:pt-16">
+      <div className="w-full flex flex-col justify-center items-center">
+        <h1 className="text-[#FAF8ED] text-[2.5rem] lg:text-[6rem] font-medium">
+          Coming Soon..
+        </h1>
+      </div>
+    </div>
 
+<div>
+        <HackbyteLogo />
+        </div>
         <div className="flex items-center justify-between gap-4 my-12">
           <div className="flex items-stretch">
             <div
@@ -147,6 +156,8 @@ export default function Home() {
               style={{ border: "1.275px solid #FAF8ED" }}
             >
               <div className="flex justify-center items-center gap-4">
+
+                {/* add gdsc logo here */}
                 <img
                   src="/tpcLogo.svg"
                   alt="TPC Logo"
@@ -162,31 +173,34 @@ export default function Home() {
               className="flex justify-center items-center py-2 md:py-2.5 px-4 md:px-6"
               style={{ border: "1.275px solid #FAF8ED" }}
             >
+
+              {/* ganapat University Logo */}
+
               <div className="flex justify-center items-center">
-                {/* <img
-                  src="/iiitdmjLogo.svg"
-                  alt="IIITDMJ Logo"
-                  className="w-[6rem] h-[3rem]"
-                /> */}
+                <img
+                  src="/UVPCE.png"
+                  alt="UVPCE Logo"
+                  className="w-[16rem] h-[2.54rem]"
+                />
               </div>
             </div>
           </div>
           <div className="hidden lg:flex gap-4">
             <div className="flex gap-6">
               <SocialMediaIcon
-                href="https://www.instagram.com/hackbyte.tpc/"
+                href="https://www.instagram.com/sparkthesummer/"
                 Icon={InstagramLogoIcon}
               />
               <SocialMediaIcon
-                href="https://twitter.com/HackbyteTPC"
+                href="https://www.instagram.com/sparkthesummer/"
                 Icon={TwitterLogoIcon}
               />
               <SocialMediaIcon
-                href="https://www.linkedin.com/company/bitbyte-tpc/"
+                href="https://www.instagram.com/sparkthesummer/"
                 Icon={LinkedInLogoIcon}
               />
               <SocialMediaIcon
-                href="https://discord.gg/NTueHjdPn8"
+                href="https://www.instagram.com/sparkthesummer/"
                 Icon={DiscordLogoIcon}
               />
             </div>
@@ -195,7 +209,7 @@ export default function Home() {
       </div>
 
       <div className="w-full flex flex-col bg-[#101010]">
-        <div className="flex flex-col p-4 md:px-12 xl:px-20 py-16 md:py-24">
+        {/* <div className="flex flex-col p-4 md:px-12 xl:px-20 py-16 md:py-24">
           <div
             className="grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-2 
             lg:grid-cols-3 xl:grid-cols-4 pt-8 md:pt-16"
@@ -204,7 +218,7 @@ export default function Home() {
               <StatisticCard key={index} {...statistic} />
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div className="flex flex-col items-center p-4 md:px-12 xl:px-20 py-16 md:py-24">
           <div className="flex flex-col items-start gap-16">
@@ -220,14 +234,14 @@ export default function Home() {
                   className="text-center text-[#F5F0D8] text-3xl lg:text-4xl 
                     font-medium leading-[44px]"
                 >
-                  Why participate in Hackbyte?
+                  Why participate in SparkTheSummer?
                 </p>
               </div>
               <p
                 className="text-center text-[#D1CAC7] text-lg lg:text-xl 
                   font-normal font-['Inter'] leading-[30px]"
               >
-                HackByte 2.0 promises a wonderful experience to the
+                SparkTheSummer promises a wonderful experience to the
                 participants.
               </p>
             </div>
@@ -327,7 +341,7 @@ export default function Home() {
                   className=" text-black text-base md:text-sm lg:text-lg font-normal 
                   font-['Inter'] leading-6 sm:leading-7 tracking-tight"
                 >
-                  Be the first ones to register for HackByte 2.0
+                  Be the first ones to register for SparkTheSummer
                 </p>
               </div>
             </div>

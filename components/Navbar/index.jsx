@@ -5,12 +5,12 @@ import { usePathname } from "next/navigation";
 import classes from "./index.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import HBMobileLogo from "@/public/HBMobileLogo.svg";
+import HBMobileLogo from "@/public/tpcLogo.svg";
 import { AnimatePresence, motion } from "framer-motion";
 
 const navigationItems = [
   { label: "Home", href: "/" },
-  { label: "Gallery", href: "/gallery" },
+  // { label: "Gallery", href: "/gallery" },
   { label: "Partners", href: "/partners" },
   { label: "Prizes", href: "/prizes" },
   { label: "Schedule", href: "/schedule" },

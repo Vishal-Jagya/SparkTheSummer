@@ -10,16 +10,16 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "FAQ | HackByte",
-  description: "Frequently asked questions about HackByte.",
-  keywords: "FAQ, HackByte, IIITDMJ, Hackathon",
+  title: "FAQ | SparkTheSummer",
+  description: "Frequently asked questions about SparkTheSummer.",
+  keywords: "FAQ, SparkTheSummer, Ganpat University, Hackathon",
   openGraph: {
-    title: "FAQ | HackByte",
-    description: "Frequently asked questions about HackByte.",
-    url: "https://hackbyte.in/faq",
+    title: "FAQ | SparkTheSummer",
+    description: "Frequently asked questions about SparkTheSummer.",
+    url: "https://SparkTheSummer.in/faq",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackByte - IIITDMJ Hackathon",
+    siteName: "SparkTheSummer - Ganpat University Hackathon",
     type: "website",
     locale: "en_US",
   },
@@ -29,12 +29,12 @@ export default function FAQ() {
   const data = [
     {
       title: "How do I register ?",
-      content: "Pre-registration will be opening in January 2024",
+      content: "Pre-registration will be opening in April 2024",
     },
     {
       title: "How many team members do I need ?",
       content:
-        "You can participate individually or in teams of 2 to 4 members. If you are participating in the hackathon individually and looking for a team, we will help you in connecting to other individual participants to get you a team.",
+        "You can participate individually or in teams of 3 to 4 members. If you are participating in the hackathon individually and looking for a team, we will help you in connecting to other individual participants to get you a team.",
     },
     {
       title: "How much are the participation fees?",
@@ -43,10 +43,10 @@ export default function FAQ() {
     },
     {
       title: "Will the Hackathon be in person or online ?",
-      content: "HackByte will be conducted in complete offline/in-person mode.",
+      content: "SparkTheSummer will be conducted in complete offline/in-person mode.",
     },
     {
-      title: "What is the venue for HackByte 2.0 ?",
+      title: "What is the venue for SparkTheSummer  ?",
       content:
         "IIITDM Jabalpur, explore our beautiful campus while thinking about innovating some crazy thing.",
     },

@@ -15,19 +15,19 @@ import PrizeCard from "@/components/PrizeCard";
 import TSPrizeCard from "@/components/TSPrizeCard";
 
 export const metadata = {
-  title: "Prizes | HackByte",
+  title: "Prizes | SparkTheSummer",
   description:
-    "Discover the exciting prizes at HackByte! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on IIIT Jabalpur's hackathon.",
+    "Discover the exciting prizes at SparkTheSummer! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on Ganpat University's hackathon.",
   keywords:
-    "Hackathon prizes, Rewards, Hackathon, IIITDMJ, Hackbyte, Coding, Programming, Tech",
+    "Hackathon prizes, Rewards, Hackathon, Ganpat University, SparkTheSummer, Coding, Programming, Tech",
   openGraph: {
-    title: "Prizes | HackByte",
+    title: "Prizes | SparkTheSummer",
     description:
-      "Discover the exciting prizes at HackByte! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on IIIT Jabalpur's hackathon.",
-    url: "https://hackbyte.in/prizes",
+      "Discover the exciting prizes at SparkTheSummer! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on Ganpat University's hackathon.",
+    url: "https://SparkTheSummer.in/prizes",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackByte - IIITDMJ Hackathon",
+    siteName: "SparkTheSummer - Ganpat University Hackathon",
     type: "website",
     locale: "en_US",
   },
@@ -90,21 +90,21 @@ export default function Prizes() {
                 monetary prizes will be split equally among the winning team
                 members.
               </p>
-              <div className="rounded-full border border-[#D1CAC7] px-4 py-1">
+              {/* <div className="rounded-full border border-[#D1CAC7] px-4 py-1">
                 <p
                   className="w-full text-[#C3C3C3] font-[Inter] 
                   text-center font-normal text-[1.25rem] md:text-[1.5rem]"
                 >
                   Winners will also get MLH winner pins 🌟
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
 
           <div className="flex flex-col gap-6 md:gap-8">
             <div className="grid grid-cols-1">
               <PrizeCard
-                amount="25K"
+                amount="15K"
                 category="1st prize- Gold"
                 default_bg="radial-gradient(116.96% 115.94% at 9.81% 9.24%, #383300 0%, rgba(56, 50, 0, 0.17) 100%)"
                 hover_bg="radial-gradient(116.96% 115.94% at 9.81% 9.24%, #383300 0%, rgba(56, 50, 0, 0.17) 100%)"
@@ -113,13 +113,13 @@ export default function Prizes() {
 
             <div className="grid grid-cols-1 gap-6 md:gap-8 lg:grid-cols-2">
               <PrizeCard
-                amount="15K"
+                amount="11K"
                 category="2nd prize- Silver"
                 default_bg="radial-gradient(148.8% 129.29% at 94.87% 3.94%, #363636 0%, rgba(26, 26, 26, 0.27) 100%)"
                 hover_bg="radial-gradient(371.89% 134.33% at 3.21% 1.26%,rgba(255, 255, 255, 0.07) 0%,rgba(217, 217, 217, 0.00) 100%)"
               />
               <PrizeCard
-                amount="10K"
+                amount="7K"
                 category="3rd prize- Bronze"
                 default_bg="radial-gradient(148.8% 129.29% at 94.87% 3.94%, #363636 0%, rgba(26, 26, 26, 0.27) 100%)"
                 hover_bg="radial-gradient(371.89% 134.33% at 3.21% 1.26%,rgba(255, 255, 255, 0.07) 0%,rgba(217, 217, 217, 0.00) 100%)"
@@ -148,7 +148,7 @@ export default function Prizes() {
                     className="text-[#C3C3C3] text-[1.25rem] font-normal 
                       text-center md:text-left"
                   >
-                    Best performing All-Girls Team at HackByte
+                    Best performing All-Girls Team at SparkTheSummer
                   </p>
                 </div>
               </div>
@@ -197,14 +197,14 @@ export default function Prizes() {
             </p>
           </div>
 
-          <div
+          {/* <div
             className="grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-2 
               xl:grid-cols-3 pt-8 md:pt-16"
           >
             {sponsorData.map((sponsor, index) => (
               <TSPrizeCard key={index} index={index} {...sponsor} />
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
 

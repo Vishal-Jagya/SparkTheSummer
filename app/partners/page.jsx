@@ -1,5 +1,6 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import SponsorCard from "@/components/ui/cards";
+import ComingSoon from "@/components/ComingSoon";
 
 import mlh from "@/public/partnersPage/mlh.webp";
 import github from "@/public/partnersPage/github.png";
@@ -22,19 +23,19 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Partners | HackByte",
+  title: "Partners | SparkTheSummer",
   description:
-    "Explore the invaluable support from our esteemed sponsors and partners at HackByte – the premier hackathon hosted by IIITDMJ. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
+    "Explore the invaluable support from our esteemed sponsors and partners at SparkTheSummer – the premier hackathon hosted by Ganpat University. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
   keywords:
     "Sponsors, Partners, Hackathon, IIITDMJ, Hackbyte, Coding, Programming, Tech, Collaboration, Innovation, Community Support, Technology Events",
   openGraph: {
-    title: "Partners | HackByte",
+    title: "Partners | SparkTheSummer",
     description:
-      "Explore the invaluable support from our esteemed sponsors and partners at HackByte – the premier hackathon hosted by IIITDMJ. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
+      "Explore the invaluable support from our esteemed sponsors and partners at SparkTheSummer – the premier hackathon hosted by Ganpat University. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
     url: "https://hackbyte.in/partners",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackByte - IIITDMJ Hackathon",
+    siteName: "SparkTheSummer - GU Hackathon",
     type: "website",
     locale: "en_US",
   },
@@ -140,10 +141,15 @@ const Partners = () => {
   return (
     <>
       <Navbar />
+
+      
+
       <div
         className="bg-[#101010] flex flex-col items-center min-h-screen 
           lg:px-20 px-4 py-48"
       >
+        <ComingSoon />
+        {/* 
         <Tabs
           defaultValue="Sponsors"
           className="flex flex-col justify-center items-center text-white"
@@ -176,8 +182,8 @@ const Partners = () => {
               })}
             </div>
           </TabsContent>
-        </Tabs>
-      </div>
+        </Tabs> */}
+      </div> 
 
       <div className="bg-black w-full h-full py-24 lg:py-40">
         <div
@@ -194,7 +200,8 @@ const Partners = () => {
             <br /> Odyssey!
           </p>
 
-          <CircleAnimation />
+      <CircleAnimation />
+      
         </div>
       </div>
 
