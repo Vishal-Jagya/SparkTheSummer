@@ -18,19 +18,19 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Humans | HackByte",
+  title: "Humans | SparkTheSummer",
   description:
-    "Meet the team behind HackByte 2.0! Discover the faces and roles of the passionate individuals who are working tirelessly to make the hackathon a grand success. Join us and be a part of the team!",
+    "Meet the team behind SparkTheSummer 2.0! Discover the faces and roles of the passionate individuals who are working tirelessly to make the hackathon a grand success. Join us and be a part of the team!",
   keywords:
-    "Humans, Team, Hackathon, IIITDMJ, Hackbyte, Coding, Programming, Tech",
+    "Humans, Team, Hackathon, Ganpat University, SparkTheSummer, Coding, Programming, Tech",
   openGraph: {
-    title: "Humans | HackByte",
+    title: "Humans | SparkTheSummer",
     description:
-      "Meet the team behind HackByte 2.0! Discover the faces and roles of the passionate individuals who are working tirelessly to make the hackathon a grand success. Join us and be a part of the team!",
-    url: "https://hackbyte.in/humans",
+      "Meet the team behind SparkTheSummer 2.0! Discover the faces and roles of the passionate individuals who are working tirelessly to make the hackathon a grand success. Join us and be a part of the team!",
+    url: "https://SparkTheSummer.in/humans",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackByte - IIITDMJ Hackathon",
+    siteName: "SparkTheSummer - Ganpat University Hackathon",
     type: "website",
     locale: "en_US",
   },
@@ -161,7 +161,7 @@ export default function Team() {
                 md:text-[4rem] xl:text-[5rem] xl:leading-[6.25rem] xl:tracking-[-0.1rem]"
             >
               Meet the humans of
-              <br /> Hackbyte 2.0
+              <br /> SparkTheSummer 
             </p>
           </div>
           <p
@@ -174,14 +174,23 @@ export default function Team() {
           </p>
         </div>
 
-        <div
+
+        <div className="w-full flex flex-col justify-center items-center">
+        <h1 className="text-[#FAF8ED] text-[2.5rem] lg:text-[6rem] font-medium">
+          Reveling soon..
+        </h1>
+
+
+        </div>
+
+        {/* <div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 
             place-content-center place-items-center gap-10 pt-20"
         >
           {HumansData.map((human, index) => (
             <HumansCard key={index} index={index} {...human} />
           ))}
-        </div>
+        </div> */}
       </div>
       <div className="bg-black w-full h-full py-24 lg:py-40">
         <div
