@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import Sketch from "./sktech";
 import Image from "next/image";
-import hackbyteLogo from "@/public/hts2.jpg";
+import hackbyteLogo from "@/public/s2.jpg";
 import spsLogo from "@/public/SPS.jpg";
 
 const HackbyteLogo = () => {
@@ -48,7 +48,7 @@ const HackbyteLogo = () => {
         data-strength="0.18"
       >
         <img
-          src={"/hts2.jpg"}
+          src={"/s2.jpg"}
           alt="HackByte Logo"
           id="hackbyteLogo"
           className="invisible"

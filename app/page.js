@@ -137,17 +137,20 @@ export default function Home() {
             </a>
           </div>
         </div>
-        
-        <div className="pt-12 lg:pt-16">
-      <div className="w-full flex flex-col justify-center items-center">
-        <h1 className="text-[#FAF8ED] text-[2.5rem] lg:text-[6rem] font-medium">
+      
+<div>
+
+        <HackbyteLogo />
+
+    {/* <div className="pt-12 lg:pt-16">
+      <div className="w-full flex flex-col items-center p-4 md:px-12 xl:px-20 md:pt-96">
+        <h1 className="text-[#FAF8ED] text-[2.5rem] lg:text-[6rem] font-medium ">
           Coming Soon..
         </h1>
       </div>
-    </div>
+    </div> */}
 
-<div>
-        <HackbyteLogo />
+
         </div>
         <div className="flex items-center justify-between gap-4 my-12">
           <div className="flex items-stretch">
