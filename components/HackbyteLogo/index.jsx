@@ -3,7 +3,9 @@
 import { useEffect, useRef } from "react";
 import Sketch from "./sktech";
 import Image from "next/image";
-import hackbyteLogo from "@/public/sts3.png";
+import stsLogo from "@/public/sts3.png";
+import stsMob from "@/public/sts2.png";
+
 import spsLogo from "@/public/SPS.jpg";
 
 const HackbyteLogo = () => {
@@ -28,7 +30,7 @@ const HackbyteLogo = () => {
   return (
     <div className="min-[1240px]:h-72 flex items-center justify-center my-12 lg:my-8">
       <Image
-        src={hackbyteLogo}
+        src={stsMob}
         className={"max-w-[30rem] min-w-[15rem] w-[70%] min-[1240px]:invisible"}
         alt="HackByte Logo"
         priority

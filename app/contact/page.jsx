@@ -4,18 +4,18 @@ import CircleAnimation from "@/components/CircleAnimation";
 import TextAnimation from "@/components/TextAnimation";
 
 export const metadata = {
-  title: "Contact | SparkTheSummer",
+  title: "Contact | Spark The Summer",
   description:
     "Connect with us at SparkTheSummer! Reach out for assistance, questions, or just to say hello. Find information on reaching Ganpat University, including travel options.",
   keywords: "contact, SparkTheSummer, reach us, get in touch",
   openGraph: {
-    title: "Contact | SparkTheSummer",
+    title: "Contact | Spark The Summer",
     description:
       "Connect with us at SparkTheSummer! Reach out for assistance, questions, or just to say hello. Find information on reaching Ganpat University, including travel options.",
-    url: "https://SparkTheSummer.in/contact",
+    url: "https://SparkTheSummer.Tech/contact",
     images:
-      "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "SparkTheSummer - Ganapat Univesity Hackathon",
+      "https://raw.githubusercontent.com/GDSC-UVPCE/SparkTheSummer/main/cdn.png",
+    siteName: "Spark The Summer - Ganapat Univesity Hackathon",
     type: "website",
     locale: "en_US",
   },

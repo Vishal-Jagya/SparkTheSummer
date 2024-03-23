@@ -24,9 +24,9 @@ export const metadata = {
     title: "Prizes | SparkTheSummer",
     description:
       "Discover the exciting prizes at SparkTheSummer! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on Ganpat University's hackathon.",
-    url: "https://SparkTheSummer.in/prizes",
+    url: "https://SparkTheSummer.trch/prizes",
     images:
-      "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
+      "https://raw.githubusercontent.com/GDSC-UVPCE/SparkTheSummer/main/cdn.png",
     siteName: "SparkTheSummer - Ganpat University Hackathon",
     type: "website",
     locale: "en_US",
