@@ -15,7 +15,7 @@ const SocialMediaIcon = ({ Icon, href }) => (
 const Footer = () => {
   const navigationItems = [
     { label: "Home", href: "/" },
-    { label: "Gallery", href: "/gallery" },
+    // { label: "Gallery", href: "/gallery" },
     { label: "Partners", href: "/partners" },
     { label: "Prizes", href: "/prizes" },
     { label: "Schedule", href: "/schedule" },
@@ -40,25 +40,25 @@ const Footer = () => {
         </div>
         <div className="flex gap-6">
           <SocialMediaIcon
-            href="https://www.instagram.com/hackbyte.tpc/"
+            href="https://www.instagram.com/sparkthesummer/"
             Icon={InstagramLogoIcon}
           />
           <SocialMediaIcon
-            href="https://twitter.com/HackbyteTPC"
+            href="https://www.instagram.com/sparkthesummer/"
             Icon={TwitterLogoIcon}
           />
           <SocialMediaIcon
-            href="https://www.linkedin.com/company/bitbyte-tpc/"
+            href="https://www.instagram.com/sparkthesummer/"
             Icon={LinkedInLogoIcon}
           />
           <SocialMediaIcon
-            href="https://discord.gg/NTueHjdPn8"
+            href="https://www.instagram.com/sparkthesummer/"
             Icon={DiscordLogoIcon}
           />
         </div>
       </div>
       <p className="text-stone-400 text-lg font-normal font-['Clash Grotesk'] leading-normal tracking-tight pt-12 mb-8">
-        © 2024 Hackbyte, All rights reserved
+        © 2024 SparkTheSummer, All rights reserved
       </p>
     </div>
   );
