@@ -301,7 +301,7 @@ export default function Home() {
                 className="max-w-[30rem] text-black text-base md:text-sm lg:text-lg 
                 font-normal font-['Inter'] leading-6 sm:leading-7 tracking-tight"
               >
-                To stay up-to-date with HackByte 2.0, consider subscribing to
+                To stay up-to-date with SparkTheSummer , consider subscribing to
                 our mailing list. Helps us share important updates right away
                 with hackers and enthusiasts alike !
               </p>

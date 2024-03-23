@@ -15,7 +15,7 @@ export const metadata = {
     url: "https://SparkTheSummer.in/contact",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "SparkTheSummer - IIITDMJ Hackathon",
+    siteName: "SparkTheSummer - Ganapat Univesity Hackathon",
     type: "website",
     locale: "en_US",
   },
