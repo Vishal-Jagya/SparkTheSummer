@@ -28,14 +28,15 @@ export default function RootLayout({ children }) {
       <head>
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-50RJG4PPLT"
+          src="https://www.googletagmanager.com/gtag/js?id=G-QCQ397E55G"
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-50RJG4PPLT');
+             window.dataLayer = window.dataLayer || [];
+             function gtag(){dataLayer.push(arguments);}
+             gtag('js', new Date());
+           
+             gtag('config', 'G-QCQ397E55G');
           `}
         </Script>
       </head>
