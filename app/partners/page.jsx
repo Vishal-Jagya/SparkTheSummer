@@ -43,72 +43,14 @@ export const metadata = {
 };
 
 const normalSponsorsData = [
-  {
-    sponsor: "MLH",
-    category: "Platform Partner",
-    sponsorimgsrc: mlh,
-    site: "https://mlh.io",
-  },
-  {
-    sponsor: "GitHub",
-    category: "Gold Sponsor",
-    sponsorimgsrc: github,
-    site: "https://gh.io/hackbyte2",
-  },
-  {
-    sponsor: "Postman",
-    category: "Gold Sponsor",
-    sponsorimgsrc: postman,
-    site: "https://community.postman.com",
-  },
-  {
-    sponsor: "Bobble Fan Store",
-    category: "Merch Partner",
-    sponsorimgsrc: bobble,
-    site: "https://fanstore.bobble.ai",
-  },
-  {
-    sponsor: "Godspeed Systems",
-    category: "Silver Sponsor",
-    sponsorimgsrc: godspeed,
-    site: "https://godspeed.systems",
-  },
+  
   {
     sponsor: "Devfolio",
     category: "Platform Partner",
     sponsorimgsrc: devfolio,
     site: "https://devfolio.co",
   },
-  {
-    sponsor: "Dlogo",
-    category: "Platform Partner",
-    sponsorimgsrc: devfolio,
-    site: "https://devfolio.co",
-  },
-  {
-    sponsor: "NextGen",
-    category: "Bronze Sponsor",
-    sponsorimgsrc: Nextgen,
-    site: "https://nextgenglobalhub.github.io/opensourcecohort/",
-  },
-  {
-    sponsor: "Auth0",
-    category: "Track Sponsor",
-    sponsorimgsrc: Auth0,
-    site: "http://hackp.ac/auth0",
-  },
-  {
-    sponsor: "Taipy",
-    category: "Track Sponsor",
-    sponsorimgsrc: Taipy,
-    site: "https://hackp.ac/taipy-gettingstarted",
-  },
-  {
-    sponsor: "Go Daddy Registry",
-    category: "Track Sponsor",
-    sponsorimgsrc: Godaddy,
-    site: "http://hackp.ac/godaddyregistry",
-  },
+
 ];
 
 const inKindSponsorsData = [
@@ -118,30 +60,7 @@ const inKindSponsorsData = [
     sponsorimgsrc: balsamiq,
     site: "https://balsamiq.com",
   },
-  {
-    sponsor: "Edubard",
-    category: "Media Partner",
-    sponsorimgsrc: edubard,
-    site: "https://edubard.in",
-  },
-  {
-    sponsor: "Wolfram",
-    category: "Community Sponsor",
-    sponsorimgsrc: wolfram,
-    site: "https://www.wolfram.com/wolfram-one/",
-  },
-  {
-    sponsor: "MongoDB",
-    category: "Community Sponsor",
-    sponsorimgsrc: Mongodb,
-    site: "https://www.mongodb.com/",
-  },
-  {
-    sponsor: "Finlatics",
-    category: "Community Sponsor",
-    sponsorimgsrc: Finlatics,
-    site: "https://www.finlatics.com/",
-  },
+
 ];
 
 const Partners = () => {
