@@ -17,6 +17,7 @@ import Mongodb from "@/public/partnersPage/Mongodb.webp";
 import Auth0 from "@/public/partnersPage/Auth0.webp";
 import Taipy from "@/public/partnersPage/taipy.webp";
 import Godaddy from "@/public/partnersPage/Godaddy.webp";
+import Dlogo from "@/public/partnersPage/Dlogo.png";
 
 import CircleAnimation from "@/components/CircleAnimation";
 import Navbar from "@/components/Navbar";
@@ -74,6 +75,12 @@ const normalSponsorsData = [
   },
   {
     sponsor: "Devfolio",
+    category: "Platform Partner",
+    sponsorimgsrc: devfolio,
+    site: "https://devfolio.co",
+  },
+  {
+    sponsor: "Dlogo",
     category: "Platform Partner",
     sponsorimgsrc: devfolio,
     site: "https://devfolio.co",
@@ -148,8 +155,8 @@ const Partners = () => {
         className="bg-[#101010] flex flex-col items-center min-h-screen 
           lg:px-20 px-4 py-48"
       >
-        <ComingSoon />
-        {/* 
+        {/* <ComingSoon /> */}
+        
         <Tabs
           defaultValue="Sponsors"
           className="flex flex-col justify-center items-center text-white"
@@ -182,9 +189,9 @@ const Partners = () => {
               })}
             </div>
           </TabsContent>
-        </Tabs> */}
+        </Tabs>
       </div> 
-
+              
       <div className="bg-black w-full h-full py-24 lg:py-40">
         <div
           className="flex flex-col justify-between gap-20 md:flex-row 
@@ -199,6 +206,9 @@ const Partners = () => {
             <br /> Your Digital
             <br /> Odyssey!
           </p>
+          <img src="Dlogo.png" alt="DEVFOLIO LOGO" className="hidden" />
+          <img src="Dlogo.png" alt="ETHINDIA LOGO" className="hidden" />
+          <img src="Dlogo.png" alt="POLYGON LOGO" className="hidden" />
 
       <CircleAnimation />
       
