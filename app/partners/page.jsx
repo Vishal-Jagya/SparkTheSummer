@@ -32,9 +32,9 @@ export const metadata = {
     title: "Partners | SparkTheSummer",
     description:
       "Explore the invaluable support from our esteemed sponsors and partners at SparkTheSummer – the premier hackathon hosted by Ganpat University. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
-    url: "https://hackbyte.in/partners",
+    url: "https://hackbyte.tech/partners",
     images:
-      "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
+      "https://raw.githubusercontent.com/GDSC-UVPCE/SparkTheSummer/main/cdn.png",
     siteName: "SparkTheSummer - GU Hackathon",
     type: "website",
     locale: "en_US",

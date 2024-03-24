@@ -16,9 +16,9 @@ export const metadata = {
   openGraph: {
     title: "FAQ | SparkTheSummer",
     description: "Frequently asked questions about SparkTheSummer.",
-    url: "https://SparkTheSummer.in/faq",
+    url: "https://SparkTheSummer.tech/faq",
     images:
-      "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
+      "https://raw.githubusercontent.com/GDSC-UVPCE/SparkTheSummer/main/cdn.png",
     siteName: "SparkTheSummer - Ganpat University Hackathon",
     type: "website",
     locale: "en_US",

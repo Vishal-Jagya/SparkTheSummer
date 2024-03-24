@@ -4,19 +4,20 @@ import "react-toastify/dist/ReactToastify.css";
 import "./clash_grotesk.css";
 
 export const metadata = {
-  title: "SparkTheSummer - Ganpat University Hackathon",
+  metadataBase: new URL('https://SparkTheSummer.tech'),
+  title: "Spark The Summer - Ganpat University Hackathon",
   description:
-    "SparkTheSummer is the Ganpat University's student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
+    "Spark The Summer is the Ganpat University's student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
   keywords: "hackathon, Ganpat University, SparkTheSummer, coding, programming, tech",
-  url: "https://SparkTheSummer.in",
+  url: "https://SparkTheSummer.tech",
   openGraph: {
-    title: "SparkTheSummer - Ganpat University Hackathon",
+    title: "Spark The Summer - Ganpat University Hackathon",
     description:
-      "SparkTheSummer is the Ganpat University's student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
-    url: "https://SparkTheSummer.in",
+      "Spark The Summer is the Ganpat University's student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
+    url: "https://SparkTheSummer.tech",
     images:
-      "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "SparkTheSummer - Ganpat University Hackathon",
+      "https://raw.githubusercontent.com/GDSC-UVPCE/SparkTheSummer/main/cdn.png",
+    siteName: "Spark The Summer - Ganpat University Hackathon",
     locale: "en_US",
     type: "website",
   },

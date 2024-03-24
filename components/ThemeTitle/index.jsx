@@ -49,7 +49,7 @@ const ThemeTitle = () => {
         className="text-[#FAF8ED] text-[1.25rem] md:text-[1.5rem] 
       font-medium uppercase"
       >
-        This year&apos;s theme :{" "}
+        {/* This year&apos;s theme :{" "} */}
       </p>
       <p
         className="text-[#FAF8ED] text-[2.375rem] md:text-[3rem] 
@@ -57,8 +57,8 @@ const ThemeTitle = () => {
         onMouseEnter={textEnter}
         onMouseLeave={textLeave}
       >
-        Digital Anonymity
-        <br /> Unleashed
+        Be a part of the
+        <br /> Innovation, comming soon..
       </p>
       <motion.div
         className="cursor"

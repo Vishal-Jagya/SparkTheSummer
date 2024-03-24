@@ -27,9 +27,9 @@ export const metadata = {
     title: "Humans | SparkTheSummer",
     description:
       "Meet the team behind SparkTheSummer 2.0! Discover the faces and roles of the passionate individuals who are working tirelessly to make the hackathon a grand success. Join us and be a part of the team!",
-    url: "https://SparkTheSummer.in/humans",
+    url: "https://SparkTheSummer.tech/humans",
     images:
-      "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
+      "https://raw.githubusercontent.com/GDSC-UVPCE/SparkTheSummer/main/cdn.png",
     siteName: "SparkTheSummer - Ganpat University Hackathon",
     type: "website",
     locale: "en_US",
