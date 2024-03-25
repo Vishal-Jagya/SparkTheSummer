@@ -23,6 +23,8 @@ const SocialMediaIcon = ({ Icon, href }) => (
   </a>
 );
 
+<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+
 // const Strip = () => (
 //   <div
 //     className="flex justify-center items-center gap-4 bg-[#FAF8ED] text-black 
@@ -123,7 +125,6 @@ export default function Home() {
             </p>
             <a href="" target="_blank">
               <Button
-                size="sm"
                 className="bg-[#FAF8ED] text-black text-[1.125rem] font-medium uppercase 
                 p-6 rounded-none hover:bg-[#FAF8ED] hover:text-black hover:scale-105 transition-transform ease-in-out duration-300"
                 style={{
@@ -134,8 +135,10 @@ export default function Home() {
                 Comming soon......
                 <ArrowTopRightIcon className="w-5 h-5 ml-1" />
               </Button>
+                
             </a>
           </div>
+
         </div>
       
 <div>

@@ -1,12 +1,17 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import SponsorCard from "@/components/ui/cards";
 import ComingSoon from "@/components/ComingSoon";
+import { Button } from "@/components/ui/button";
+import { ArrowTopRightIcon } from "@radix-ui/react-icons";
+import DevfolioApplyButton from "@/public/devfoliobutton.png";
 
 import mlh from "@/public/partnersPage/mlh.webp";
 import github from "@/public/partnersPage/github.png";
 import postman from "@/public/partnersPage/postman.webp";
 import godspeed from "@/public/partnersPage/godspeed.webp";
 import devfolio from "@/public/partnersPage/devfolio.webp";
+import Polygon from "@/public/partnersPage/pol.png";
+import ethindia from "@/public/partnersPage/ethindia.png";
 import edubard from "@/public/partnersPage/edubard.webp";
 import bobble from "@/public/partnersPage/bobble.webp";
 import wolfram from "@/public/partnersPage/wolfram.webp";
@@ -17,6 +22,7 @@ import Mongodb from "@/public/partnersPage/Mongodb.webp";
 import Auth0 from "@/public/partnersPage/Auth0.webp";
 import Taipy from "@/public/partnersPage/taipy.webp";
 import Godaddy from "@/public/partnersPage/Godaddy.webp";
+import Dlogo from "@/public/partnersPage/Dlogo.png";
 
 import CircleAnimation from "@/components/CircleAnimation";
 import Navbar from "@/components/Navbar";
@@ -41,67 +47,17 @@ export const metadata = {
   },
 };
 
+<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+
 const normalSponsorsData = [
-  {
-    sponsor: "MLH",
-    category: "Platform Partner",
-    sponsorimgsrc: mlh,
-    site: "https://mlh.io",
-  },
-  {
-    sponsor: "GitHub",
-    category: "Gold Sponsor",
-    sponsorimgsrc: github,
-    site: "https://gh.io/hackbyte2",
-  },
-  {
-    sponsor: "Postman",
-    category: "Gold Sponsor",
-    sponsorimgsrc: postman,
-    site: "https://community.postman.com",
-  },
-  {
-    sponsor: "Bobble Fan Store",
-    category: "Merch Partner",
-    sponsorimgsrc: bobble,
-    site: "https://fanstore.bobble.ai",
-  },
-  {
-    sponsor: "Godspeed Systems",
-    category: "Silver Sponsor",
-    sponsorimgsrc: godspeed,
-    site: "https://godspeed.systems",
-  },
+  
   {
     sponsor: "Devfolio",
     category: "Platform Partner",
     sponsorimgsrc: devfolio,
     site: "https://devfolio.co",
   },
-  {
-    sponsor: "NextGen",
-    category: "Bronze Sponsor",
-    sponsorimgsrc: Nextgen,
-    site: "https://nextgenglobalhub.github.io/opensourcecohort/",
-  },
-  {
-    sponsor: "Auth0",
-    category: "Track Sponsor",
-    sponsorimgsrc: Auth0,
-    site: "http://hackp.ac/auth0",
-  },
-  {
-    sponsor: "Taipy",
-    category: "Track Sponsor",
-    sponsorimgsrc: Taipy,
-    site: "https://hackp.ac/taipy-gettingstarted",
-  },
-  {
-    sponsor: "Go Daddy Registry",
-    category: "Track Sponsor",
-    sponsorimgsrc: Godaddy,
-    site: "http://hackp.ac/godaddyregistry",
-  },
+
 ];
 
 const inKindSponsorsData = [
@@ -112,29 +68,18 @@ const inKindSponsorsData = [
     site: "https://balsamiq.com",
   },
   {
-    sponsor: "Edubard",
-    category: "Media Partner",
-    sponsorimgsrc: edubard,
-    site: "https://edubard.in",
+    sponsor: "Polygon",
+    category: "Sponser",
+    sponsorimgsrc: Polygon,
+    site: "https://polygon.technology/",
   },
   {
-    sponsor: "Wolfram",
-    category: "Community Sponsor",
-    sponsorimgsrc: wolfram,
-    site: "https://www.wolfram.com/wolfram-one/",
+    sponsor: "ETHIndia",
+    category: " Sponsor",
+    sponsorimgsrc: ethindia,
+    site: "https://ethindia.co ",
   },
-  {
-    sponsor: "MongoDB",
-    category: "Community Sponsor",
-    sponsorimgsrc: Mongodb,
-    site: "https://www.mongodb.com/",
-  },
-  {
-    sponsor: "Finlatics",
-    category: "Community Sponsor",
-    sponsorimgsrc: Finlatics,
-    site: "https://www.finlatics.com/",
-  },
+
 ];
 
 const Partners = () => {
@@ -148,8 +93,8 @@ const Partners = () => {
         className="bg-[#101010] flex flex-col items-center min-h-screen 
           lg:px-20 px-4 py-48"
       >
-        <ComingSoon />
-        {/* 
+        {/* <ComingSoon /> */}
+        
         <Tabs
           defaultValue="Sponsors"
           className="flex flex-col justify-center items-center text-white"
@@ -182,23 +127,55 @@ const Partners = () => {
               })}
             </div>
           </TabsContent>
-        </Tabs> */}
+        </Tabs>
       </div> 
 
+      {/* error starts form here */}
+      <div 
+        class="apply-button" 
+        className="flex flex-col items-start gap-3 w-full lg:items-end lg:w-1/2"
+        data-hackathon-slug="sparkthesummer" 
+        data-button-theme="dark"
+      >
+         <a href="" target="_blank">
+              <Button
+              
+                size="sm"
+                src="DevfolioApplyButton"
+                
+                className="bg-[#FAF8ED] text-black text-[1.125rem] font-medium uppercase 
+                p-6 rounded-none hover:bg-[#FAF8ED] hover:text-black hover:scale-105 transition-transform ease-in-out duration-300"
+                style={{
+                  boxShadow:
+                    "0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 2px 5px 0px rgba(103, 110, 118, 0.08)",
+                }}
+              >
+                Comming soon......
+                <ArrowTopRightIcon className="w-5 h-5 ml-1" />
+              </Button>
+                
+            </a>
+      </div>
+
+      {/* error ends here */}
+              
       <div className="bg-black w-full h-full py-24 lg:py-40">
         <div
           className="flex flex-col justify-between gap-20 md:flex-row 
             px-4 md:px-8 xl:px-20 2xl:px-40"
         >
           <p
-            className="max-w-3xl text-6xl md:text-[5.5rem] lg:text-[7rem] xl:text-[9rem] 
+            className="max-w-3xl text-xl md:text-[5.5rem] lg:text-[7rem] xl:text-[9rem] 
             text-white font-normal font-['Clash Grotesk'] md:leading-[8rem] 
               lg:leading-[10rem] tracking-tighter md:tracking-[-0.2rem]"
           >
-            Empower
-            <br /> Your Digital
-            <br /> Odyssey!
+            Summer's
+            <br /> Hottest Hackathon
+            <br /> 
           </p>
+          <img src="Dlogo.png" alt="DEVFOLIO LOGO" className="hidden" />
+          <img src="Dlogo.png" alt="ETHINDIA LOGO" className="hidden" />
+          <img src="Dlogo.png" alt="POLYGON LOGO" className="hidden" />
 
       <CircleAnimation />
       

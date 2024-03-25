@@ -21,6 +21,8 @@ const navigationItems = [
   { label: "Contact", href: "/contact" },
 ];
 
+<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+
 const NavItem = ({ label, href }) => {
   const pathname = usePathname();
 
@@ -90,6 +92,8 @@ export default function Navbar() {
             className="w-full hover:scale-110 transition-all duration-300 ease-in-out"
           />
         </a> */}
+
+        
 
         <div className="flex items-center justify-end w-full xl:hidden">
           <button
