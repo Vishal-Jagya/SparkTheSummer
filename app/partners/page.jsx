@@ -10,7 +10,7 @@ import github from "@/public/partnersPage/github.png";
 import postman from "@/public/partnersPage/postman.webp";
 import godspeed from "@/public/partnersPage/godspeed.webp";
 import devfolio from "@/public/partnersPage/devfolio.webp";
-import Polygon from "@/public/partnersPage/PolygonC.png";
+import Polygon from "@/public/partnersPage/pol.png";
 import ethindia from "@/public/partnersPage/ethindia.png";
 import edubard from "@/public/partnersPage/edubard.webp";
 import bobble from "@/public/partnersPage/bobble.webp";
