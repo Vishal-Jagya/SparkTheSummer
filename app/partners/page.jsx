@@ -1,6 +1,8 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import SponsorCard from "@/components/ui/cards";
 import ComingSoon from "@/components/ComingSoon";
+import { Button } from "@/components/ui/button";
+import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 
 import mlh from "@/public/partnersPage/mlh.webp";
 import github from "@/public/partnersPage/github.png";
@@ -41,6 +43,8 @@ export const metadata = {
     locale: "en_US",
   },
 };
+
+<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
 
 const normalSponsorsData = [
   
@@ -110,6 +114,35 @@ const Partners = () => {
           </TabsContent>
         </Tabs>
       </div> 
+
+      {/* error starts form here */}
+      <div 
+        class="apply-button" 
+        className="flex flex-col items-start gap-3 w-full lg:items-end lg:w-1/2"
+        data-hackathon-slug="sparkthesummer" 
+        data-button-theme="light"
+      >
+         <a href="" target="_blank">
+              <Button
+                class="apply-button"
+                size="sm"
+                data-hackathon-slug="sparkthesummer" 
+	              data-button-theme="light"
+                className="bg-[#FAF8ED] text-black text-[1.125rem] font-medium uppercase 
+                p-6 rounded-none hover:bg-[#FAF8ED] hover:text-black hover:scale-105 transition-transform ease-in-out duration-300"
+                style={{
+                  boxShadow:
+                    "0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 2px 5px 0px rgba(103, 110, 118, 0.08)",
+                }}
+              >
+                Comming soon......
+                <ArrowTopRightIcon className="w-5 h-5 ml-1" />
+              </Button>
+                
+            </a>
+      </div>
+
+      {/* error ends here */}
               
       <div className="bg-black w-full h-full py-24 lg:py-40">
         <div
