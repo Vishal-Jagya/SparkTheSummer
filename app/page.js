@@ -125,10 +125,6 @@ export default function Home() {
             </p>
             <a href="" target="_blank">
               <Button
-                class="apply-button"
-                size="sm"
-                data-hackathon-slug="sparkthesummer" 
-	              data-button-theme="light"
                 className="bg-[#FAF8ED] text-black text-[1.125rem] font-medium uppercase 
                 p-6 rounded-none hover:bg-[#FAF8ED] hover:text-black hover:scale-105 transition-transform ease-in-out duration-300"
                 style={{

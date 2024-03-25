@@ -3,12 +3,15 @@ import SponsorCard from "@/components/ui/cards";
 import ComingSoon from "@/components/ComingSoon";
 import { Button } from "@/components/ui/button";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
+import DevfolioApplyButton from "@/public/devfoliobutton.png";
 
 import mlh from "@/public/partnersPage/mlh.webp";
 import github from "@/public/partnersPage/github.png";
 import postman from "@/public/partnersPage/postman.webp";
 import godspeed from "@/public/partnersPage/godspeed.webp";
 import devfolio from "@/public/partnersPage/devfolio.webp";
+import Polygon from "@/public/partnersPage/PolygonC.png";
+import ethindia from "@/public/partnersPage/ethindia.png";
 import edubard from "@/public/partnersPage/edubard.webp";
 import bobble from "@/public/partnersPage/bobble.webp";
 import wolfram from "@/public/partnersPage/wolfram.webp";
@@ -63,6 +66,18 @@ const inKindSponsorsData = [
     category: "Community Sponsor",
     sponsorimgsrc: balsamiq,
     site: "https://balsamiq.com",
+  },
+  {
+    sponsor: "Polygon",
+    category: "Sponser",
+    sponsorimgsrc: Polygon,
+    site: "https://polygon.technology/",
+  },
+  {
+    sponsor: "ETHIndia",
+    category: " Sponsor",
+    sponsorimgsrc: ethindia,
+    site: "https://ethindia.co ",
   },
 
 ];
@@ -120,14 +135,14 @@ const Partners = () => {
         class="apply-button" 
         className="flex flex-col items-start gap-3 w-full lg:items-end lg:w-1/2"
         data-hackathon-slug="sparkthesummer" 
-        data-button-theme="light"
+        data-button-theme="dark"
       >
          <a href="" target="_blank">
               <Button
-                class="apply-button"
+              
                 size="sm"
-                data-hackathon-slug="sparkthesummer" 
-	              data-button-theme="light"
+                src="DevfolioApplyButton"
+                
                 className="bg-[#FAF8ED] text-black text-[1.125rem] font-medium uppercase 
                 p-6 rounded-none hover:bg-[#FAF8ED] hover:text-black hover:scale-105 transition-transform ease-in-out duration-300"
                 style={{
@@ -150,13 +165,13 @@ const Partners = () => {
             px-4 md:px-8 xl:px-20 2xl:px-40"
         >
           <p
-            className="max-w-3xl text-6xl md:text-[5.5rem] lg:text-[7rem] xl:text-[9rem] 
+            className="max-w-3xl text-xl md:text-[5.5rem] lg:text-[7rem] xl:text-[9rem] 
             text-white font-normal font-['Clash Grotesk'] md:leading-[8rem] 
               lg:leading-[10rem] tracking-tighter md:tracking-[-0.2rem]"
           >
-            Empower
-            <br /> Your Digital
-            <br /> Odyssey!
+            Summer's
+            <br /> Hottest Hackathon
+            <br /> 
           </p>
           <img src="Dlogo.png" alt="DEVFOLIO LOGO" className="hidden" />
           <img src="Dlogo.png" alt="ETHINDIA LOGO" className="hidden" />
