@@ -1,4 +1,6 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger }
+ from "@/components/ui/tabs";
+ import Script from "next/script";
 import SponsorCard from "@/components/ui/cards";
 import ComingSoon from "@/components/ComingSoon";
 import { Button } from "@/components/ui/button";
@@ -27,6 +29,7 @@ import Dlogo from "@/public/partnersPage/Dlogo.png";
 import CircleAnimation from "@/components/CircleAnimation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Devfoliobtn from "@/components/DevfolioButton/Devfoliobtn";
 
 export const metadata = {
   title: "Partners | SparkTheSummer",
@@ -47,17 +50,14 @@ export const metadata = {
   },
 };
 
-<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
 
 const normalSponsorsData = [
-  
   {
     sponsor: "Devfolio",
     category: "Platform Partner",
     sponsorimgsrc: devfolio,
     site: "https://devfolio.co",
   },
-
 ];
 
 const inKindSponsorsData = [
@@ -79,7 +79,6 @@ const inKindSponsorsData = [
     sponsorimgsrc: ethindia,
     site: "https://ethindia.co ",
   },
-
 ];
 
 const Partners = () => {
@@ -87,14 +86,12 @@ const Partners = () => {
     <>
       <Navbar />
 
-      
-
       <div
         className="bg-[#101010] flex flex-col items-center min-h-screen 
           lg:px-20 px-4 py-48"
       >
         {/* <ComingSoon /> */}
-        
+
         <Tabs
           defaultValue="Sponsors"
           className="flex flex-col justify-center items-center text-white"
@@ -128,37 +125,25 @@ const Partners = () => {
             </div>
           </TabsContent>
         </Tabs>
-      </div> 
-
-      {/* error starts form here */}
-      <div 
-        class="apply-button" 
-        className="flex flex-col items-start gap-3 w-full lg:items-end lg:w-1/2"
-        data-hackathon-slug="sparkthesummer" 
-        data-button-theme="dark"
-      >
-         <a href="" target="_blank">
-              <Button
-              
-                size="sm"
-                src="DevfolioApplyButton"
-                
-                className="bg-[#FAF8ED] text-black text-[1.125rem] font-medium uppercase 
-                p-6 rounded-none hover:bg-[#FAF8ED] hover:text-black hover:scale-105 transition-transform ease-in-out duration-300"
-                style={{
-                  boxShadow:
-                    "0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 2px 5px 0px rgba(103, 110, 118, 0.08)",
-                }}
-              >
-                Comming soon......
-                <ArrowTopRightIcon className="w-5 h-5 ml-1" />
-              </Button>
-                
-            </a>
       </div>
 
+      {/* error starts form here */}
+      <div
+        className="apply-button"
+        data-hackathon-slug="sparkthesummer"
+        data-button-theme="light"
+        style={{ height: "44px", width: "312px" }}
+      ></div>
+      {/* <Devfoliobtn /> */}
+      <Script
+        defer
+        async
+        src="https://apply.devfolio.co/v2/sdk.js"
+        strategy="lazyOnload"
+      />
+
       {/* error ends here */}
-              
+
       <div className="bg-black w-full h-full py-24 lg:py-40">
         <div
           className="flex flex-col justify-between gap-20 md:flex-row 
@@ -171,14 +156,13 @@ const Partners = () => {
           >
             Summer's
             <br /> Hottest Hackathon
-            <br /> 
+            <br />
           </p>
           <img src="Dlogo.png" alt="DEVFOLIO LOGO" className="hidden" />
           <img src="Dlogo.png" alt="ETHINDIA LOGO" className="hidden" />
           <img src="Dlogo.png" alt="POLYGON LOGO" className="hidden" />
 
-      <CircleAnimation />
-      
+          <CircleAnimation />
         </div>
       </div>
 

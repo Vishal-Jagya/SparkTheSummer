@@ -39,7 +39,7 @@ const HackbyteLogo = () => {
         className="absolute top-0 -z-[1] left-0 w-full h-full"
         style={{
           backgroundColor: "#000",
-          backgroundImage: "url(/background.png)",
+          backgroundImage: "url(/newbackground.png)",
           backgroundAttachment: "fixed",
           backgroundSize: "cover",
         }}

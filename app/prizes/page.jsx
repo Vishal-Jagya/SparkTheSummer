@@ -136,9 +136,10 @@ export default function Prizes() {
               >
                 <Image
                   src={bestGirls}
-                  alt=""
+                  alt="bestgirl"
                   className="w-[6.5rem] h-[6.5rem]"
                   placeholder="blur"
+                  
                 />
                 <div className="w-full flex flex-col items-center md:items-start gap-2">
                   <p className="text-[#fff] text-[2rem] font-normal">
