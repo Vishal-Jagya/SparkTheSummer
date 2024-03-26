@@ -8,7 +8,7 @@ export default function NotFound() {
   return (
     <>
       <div
-        class="bg-[#101010] flex flex-col min-h-fit
+        className="bg-[#101010] flex flex-col min-h-fit
         p-4 md:pb-64 lg:px-0 md:pt-24 pt-16"
       >
         <div
