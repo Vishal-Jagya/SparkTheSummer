@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import {
   TwitterLogoIcon,
   LinkedInLogoIcon,
+  InstagramLogoIcon,
   GitHubLogoIcon,
 } from "@radix-ui/react-icons";
 
@@ -23,7 +24,7 @@ const HumansCard = ({
   role,
   profilepic,
   linkedin,
-  twitter,
+  instagram,
   github,
 }) => {
   const defaultGradient =
@@ -66,7 +67,7 @@ const HumansCard = ({
             </p>
             <div className="flex gap-6 py-2">
               <SocialMediaIcon href={linkedin} Icon={LinkedInLogoIcon} />
-              <SocialMediaIcon href={twitter} Icon={TwitterLogoIcon} />
+              <SocialMediaIcon href={instagram} Icon={InstagramLogoIcon} />
               <SocialMediaIcon href={github} Icon={GitHubLogoIcon} />
             </div>
           </div>

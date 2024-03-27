@@ -1,17 +1,9 @@
 import HumansCard from "@/components/HumansCard";
 
-import bhavik from "@/public/humansPage/bhavik.jpg";
-import vansh from "@/public/humansPage/vansh.jpeg";
-import aditya_raj from "@/public/humansPage/aditya_raj.webp";
-import aryan from "@/public/humansPage/aryan.jpg";
-import deepanshu from "@/public/humansPage/deepanshu.jpg";
-import sambhav from "@/public/humansPage/sambhav.jpg";
-import varun from "@/public/humansPage/varun.jpg";
-import manoj from "@/public/humansPage/manoj.jpg";
-import eshaan from "@/public/humansPage/eshaan.jpg";
-import prajwal from "@/public/humansPage/prajwal.png";
-import nitya from "@/public/humansPage/nitya.png";
-import prajjwal from "@/public/humansPage/prajjwal.webp";
+import fenil from "@/public/humansPage/fenil.jpg";
+import venish from "@/public/humansPage/venish.jpg";
+
+
 
 import CircleAnimation from "@/components/CircleAnimation";
 import Navbar from "@/components/Navbar";
@@ -39,101 +31,20 @@ export const metadata = {
 export default function Team() {
   const HumansData = [
     {
-      name: "Bhavik Agrawal",
-      role: "Event Coordinator",
-      profilepic: bhavik,
-      linkedin: "https://www.linkedin.com/in/bhavikagarwal2001/",
-      twitter: "https://twitter.com/BhavikAgarwal13",
-      github: "https://github.com/Bhavik-ag",
+      name: "Fenil Modi",
+      role: "Host Oragnizer",
+      profilepic: fenil ,
+      linkedin: "https://www.linkedin.com/in//",
+      instagram: "https://twitter.com",
+      github: "https://github.com/",
     },
     {
-      name: "Vansh Mittal",
-      role: "Web Lead",
-      profilepic: vansh,
-      linkedin: "https://www.linkedin.com/in/vansh-mittal-21869922a/",
-      twitter: "https://twitter.com/mittalvansh_11",
-      github: "https://github.com/mittalvansh",
-    },
-    {
-      name: "Aditya Raj",
-      role: "Design Lead",
-      profilepic: aditya_raj,
-      linkedin: "https://www.linkedin.com/in/contactadityaraj/",
-      twitter: "#",
-      github: "#",
-    },
-    {
-      name: "Deepanshu Singh",
-      role: "PR & Marketing Lead",
-      profilepic: deepanshu,
-      linkedin: "https://www.linkedin.com/in/sdeepanshu17/",
-      twitter: "https://twitter.com/sdeepanshu17",
-      github: "#",
-    },
-    {
-      name: "Sambhav Gupta",
-      role: "Speaker & Workshop Lead",
-      profilepic: sambhav,
-      linkedin: "https://www.linkedin.com/in/sambhavgupta0705",
-      twitter: "https://x.com/sambhavgupta75",
-      github: "https://github.com/sambhavgupta0705",
-    },
-    {
-      name: "Varun Singh",
-      role: "Registrations Lead",
-      profilepic: varun,
-      linkedin: "https://www.linkedin.com/in/varun-singh-018242224/",
-      twitter: "#",
-      github: "https://github.com/varun7singh",
-    },
-    {
-      name: "Aryan Pandey",
-      role: "Organizer",
-      profilepic: aryan,
-      linkedin: "https://linkedin.com/in/aryan1113",
-      twitter: "https://twitter.com/aisehiaryan",
-      github: "#",
-    },
-    {
-      name: "Prajjwal Kapoor",
-      role: "Organizer",
-      profilepic: prajjwal,
-      linkedin: "https://www.linkedin.com/in/prajjwal-kapoor/",
-      twitter: "https://twitter.com/the_prajjwal",
-      github: "https://github.com/prajjwalkapoor",
-    },
-    {
-      name: "Nitya Tiwari",
-      role: "Organizer",
-      profilepic: nitya,
-      linkedin: "https://www.linkedin.com/in/nitya-tiwari-960797229/",
-      twitter: "https://twitter.com/nityatiwariii",
-      github: "#",
-    },
-    {
-      name: "Manoj Panjwani",
-      role: "Organizer",
-      profilepic: manoj,
-      linkedin:
-        "https://www.linkedin.com/in/manojpanjwani03?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      twitter: "#",
-      github: "#",
-    },
-    {
-      name: "Prajwal Rayal",
-      role: "Organizer",
-      profilepic: prajwal,
-      linkedin: "http://linkedin.com/in/prajwal-rayal",
-      twitter: "https://twitter.com/rayalprajwal",
-      github: "#",
-    },
-    {
-      name: "Eshaan Modi",
-      role: "Organizer",
-      profilepic: eshaan,
-      linkedin: "https://www.linkedin.com/in/eshaan-modi-a9a602253/",
-      twitter: "#",
-      github: "#",
+      name: "Fenil Modi",
+      role: "Host Oragnizer",
+      profilepic: venish ,
+      linkedin: "https://www.linkedin.com/in/venishsureliya/",
+      instagram: "https://instagram.com/venish_sureliya",
+      github: "https://github.com/VenishSureliya",
     },
   ];
   return (
@@ -175,22 +86,16 @@ export default function Team() {
         </div>
 
 
-        <div className="w-full flex flex-col justify-center items-center">
-        <h1 className="text-[#FAF8ED] text-[2.5rem] lg:text-[6rem] font-medium">
-          Reveling soon..
-        </h1>
+     
 
-
-        </div>
-
-        {/* <div
+        <div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 
             place-content-center place-items-center gap-10 pt-20"
         >
           {HumansData.map((human, index) => (
             <HumansCard key={index} index={index} {...human} />
           ))}
-        </div> */}
+        </div>
       </div>
       <div className="bg-black w-full h-full py-24 lg:py-40">
         <div
