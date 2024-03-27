@@ -60,13 +60,13 @@ export default function Contact() {
             <p className="text-[#F5F0D8] font-normal font-['Inter'] text-[1.5rem] md:text-[1.875rem]">
               Reaching Ganpat University
             </p>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3174.631325012539!2d80.02390068793628!3d23.17681212828739!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981a94397365dd3%3A0x5f9aeb812c2678c9!2sIIITDM%20Jabalpur!5e0!3m2!1sen!2sin!4v1696615484249!5m2!1sen!2sin"
-              className="w-full h-full md:h-[25rem] border-0 rounded-[1rem]"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.0893814883275!2d72.4528653899983!3d23.529287424215795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c476c5013fd03%3A0xa1fe01d9ab30482!2sGanpat%20University%20(GUNI)%2C%20India!5e0!3m2!1sen!2sus!4v1711558523658!5m2!1sen!2sus" 
+            className="w-full h-full md:h-[25rem] border-0 rounded-[1rem]"
+            allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+
+          </iframe>
           </div>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">

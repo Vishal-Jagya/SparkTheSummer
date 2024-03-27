@@ -64,6 +64,16 @@ export default function Team() {
       github: "https://github.com/iGeeklOrd",
     },
   ];
+
+  const HumansData2 = [
+    {
+      name: "Fenil Modi",
+      role: "Host Oragnizer",
+      profilepic: fenil ,
+      linkedin: "https://www.linkedin.com/in//",
+      instagram: "https://twitter.com",
+      github: "https://github.com/",
+    },]
   return (
     <>
       <Navbar />
@@ -110,6 +120,15 @@ export default function Team() {
             place-content-center place-items-center gap-10 pt-20"
         >
           {HumansData.map((human, index) => (
+            <HumansCard key={index} index={index} {...human} />
+          ))}
+        </div>
+
+        <div
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 
+            place-content-center place-items-center gap-10 pt-20"
+        >
+          {HumansData2.map((human, index) => (
             <HumansCard key={index} index={index} {...human} />
           ))}
         </div>
