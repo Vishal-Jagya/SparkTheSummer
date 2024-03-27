@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import classes from "./index.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import HBMobileLogo from "@/public/tpcLogo.svg";
+import HBMobileLogo from "@/public/gdscLogo.svg";
 // import HBMobileLogo from "@/public/tpcLogo.svg";
 
 import { AnimatePresence, motion } from "framer-motion";
@@ -60,6 +60,7 @@ export default function Navbar() {
       <nav className="absolute z-[2] w-full flex items-center xl:justify-center px-4 pt-8">
         <Image
           src={HBMobileLogo}
+          onClick={() => (window.location.href = "/")}
           alt="Hackathon-Mobile-Logo"
           className="xl:hidden"
           width={"6rem"}

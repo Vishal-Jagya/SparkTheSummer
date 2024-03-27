@@ -18,7 +18,7 @@ const Devfoliobtn = () => {
       <div
         className="apply-button"
         data-hackathon-slug="sparkthesummer"
-        data-button-theme="light"
+        data-button-theme="dark"
         style={{ height: "44px", width: "312px" }}
       ></div>
       {/* <Script

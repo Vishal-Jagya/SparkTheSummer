@@ -1,8 +1,8 @@
 import HumansCard from "@/components/HumansCard";
 
-import fenil from "@/public/humansPage/fenil.jpg";
-import venish from "@/public/humansPage/venish.jpg";
-
+import fenil from "@/public/humansPage/fenilpic.jpg";
+import venish from "@/public/humansPage/venishPic.jpg";
+import vishal from "@/public/humansPage/vishalPic.jpg";
 
 
 import CircleAnimation from "@/components/CircleAnimation";
@@ -39,12 +39,20 @@ export default function Team() {
       github: "https://github.com/",
     },
     {
-      name: "Fenil Modi",
-      role: "Host Oragnizer",
+      name: "Veanish Sureliya",
+      role: "Oragnizer and Media",
       profilepic: venish ,
       linkedin: "https://www.linkedin.com/in/venishsureliya/",
       instagram: "https://instagram.com/venish_sureliya",
       github: "https://github.com/VenishSureliya",
+    },
+    {
+      name: "Vishal Jagya",
+      role: "Social Media and Content",
+      profilepic: vishal ,
+      linkedin: "https://www.linkedin.com/in/vishal-jagya-41498722b/",
+      instagram: "https://www.instagram.com/infotech.vishal?utm_source=qr",
+      github: "https://github.com/infotech-vishal ",
     },
   ];
   return (

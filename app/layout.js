@@ -8,7 +8,7 @@ export const metadata = {
   title: "Spark The Summer - Ganpat University Hackathon",
   description:
     "Spark The Summer is the Ganpat University's student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
-  keywords: "hackathon, Ganpat University, SparkTheSummer, coding, programming, tech",
+  keywords: "SparkTheSummer,hackathon, Ganpat University, Mehsana, sparkthesummer.tech, coding, programming, tech",
   url: "https://SparkTheSummer.tech",
   openGraph: {
     title: "Spark The Summer - Ganpat University Hackathon",

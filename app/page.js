@@ -165,7 +165,7 @@ export default function Home() {
 
                 {/* add gdsc logo here */}
                 <img
-                  src="/gdsc.svg"
+                  src="/gdscLogo.svg"
                   alt="TPC Logo"
                   className="w-[4rem] h-[2.125rem]"
                 />

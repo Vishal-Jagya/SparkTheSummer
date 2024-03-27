@@ -131,7 +131,7 @@ const Partners = () => {
       <div
         className="apply-button"
         data-hackathon-slug="sparkthesummer"
-        data-button-theme="light"
+        data-button-theme="Light"
         style={{ height: "44px", width: "312px" }}
       ></div>
       {/* <Devfoliobtn /> */}
@@ -158,10 +158,6 @@ const Partners = () => {
             <br /> Hottest Hackathon
             <br />
           </p>
-          <img src="Dlogo.png" alt="DEVFOLIO LOGO" className="hidden" />
-          <img src="Dlogo.png" alt="ETHINDIA LOGO" className="hidden" />
-          <img src="Dlogo.png" alt="POLYGON LOGO" className="hidden" />
-
           <CircleAnimation />
         </div>
       </div>
