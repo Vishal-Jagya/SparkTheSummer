@@ -3,6 +3,7 @@ import HumansCard from "@/components/HumansCard";
 import fenil from "@/public/humansPage/fenilpic.jpg";
 import venish from "@/public/humansPage/venishPic.jpg";
 import vishal from "@/public/humansPage/vishalPic.jpg";
+import namit from "@/public/humansPage/namitPic.jpg";
 
 
 import CircleAnimation from "@/components/CircleAnimation";
@@ -52,7 +53,15 @@ export default function Team() {
       profilepic: vishal ,
       linkedin: "https://www.linkedin.com/in/vishal-jagya-41498722b/",
       instagram: "https://www.instagram.com/infotech.vishal?utm_source=qr",
-      github: "https://github.com/infotech-vishal ",
+      github: "https://github.com/infotech-vishal",
+    },
+    {
+      name: "Namit Joshi",
+      role: "PR and Sponsorship Outreach",
+      profilepic: namit ,
+      linkedin: "https://www.linkedin.com/in/namit-joshi-29749a246",
+      instagram: "https://www.instagram.com/bhudev.ji/",
+      github: "https://github.com/iGeeklOrd",
     },
   ];
   return (
