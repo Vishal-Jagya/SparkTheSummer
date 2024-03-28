@@ -3,10 +3,8 @@
 import { useEffect, useRef } from "react";
 import Sketch from "./sktech";
 import Image from "next/image";
-import stsLogo from "@/public/sts3.png";
 import stsMob from "@/public/sts2.png";
 
-import spsLogo from "@/public/SPS.jpg";
 
 const HackbyteLogo = () => {
   const containerRef = useRef(null);
