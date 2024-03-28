@@ -4,6 +4,7 @@ import fenil from "@/public/humansPage/fenilpic.jpg";
 import venish from "@/public/humansPage/venishPic.jpg";
 import vishal from "@/public/humansPage/vishalPic.jpg";
 import namit from "@/public/humansPage/namitPic.jpg";
+import kansishka  from "@/public/humansPage/kanishkaPic.jpg"
 
 
 import CircleAnimation from "@/components/CircleAnimation";
@@ -35,9 +36,9 @@ export default function Team() {
       name: "Fenil Modi",
       role: "Host Oragnizer",
       profilepic: fenil ,
-      linkedin: "https://www.linkedin.com/in//",
-      instagram: "https://twitter.com",
-      github: "https://github.com/",
+      linkedin: "https://www.linkedin.com/in/fenilmodi-li/",
+      instagram: "https://www.instagram.com/fenil_modii",
+      github: "https://github.com/fenilmodi00/",
     },
     {
       name: "Veanish Sureliya",
@@ -67,12 +68,12 @@ export default function Team() {
 
   const HumansData2 = [
     {
-      name: "Fenil Modi",
-      role: "Host Oragnizer",
-      profilepic: fenil ,
-      linkedin: "https://www.linkedin.com/in//",
-      instagram: "https://twitter.com",
-      github: "https://github.com/",
+      name: "Kanshika Khandelwal",
+      role: "Registration and Content",
+      profilepic: kansishka ,
+      linkedin: "https://www.linkedin.com/in/kanishka-khandelwal-463432232/",
+      instagram : " ",
+      github: "https://github.com/Kanishka-2004",
     },]
   return (
     <>
