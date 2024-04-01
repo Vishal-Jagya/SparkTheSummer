@@ -4,7 +4,9 @@ import fenil from "@/public/humansPage/fenilpic.jpg";
 import venish from "@/public/humansPage/venishPic.jpg";
 import vishal from "@/public/humansPage/vishalPic.jpg";
 import namit from "@/public/humansPage/namitPic.jpg";
-import kansishka  from "@/public/humansPage/kanishkaPic.jpg"
+import kanishka  from "@/public/humansPage/kanishkaPic.jpg"
+import himanshu  from "@/public/humansPage/himanshuPic.png"
+
 
 
 import CircleAnimation from "@/components/CircleAnimation";
@@ -68,13 +70,22 @@ export default function Team() {
 
   const HumansData2 = [
     {
-      name: "Kanshika Khandelwal",
+      name: "Kanishka Khandelwal",
       role: "Registration and Content",
-      profilepic: kansishka ,
+      profilepic: kanishka ,
       linkedin: "https://www.linkedin.com/in/kanishka-khandelwal-463432232/",
       instagram : " ",
       github: "https://github.com/Kanishka-2004",
-    },]
+    },
+    {
+      name: "Himanshu Patel",
+      role: "Faculty Advisor",
+      profilepic: himanshu ,
+      linkedin: "https://www.linkedin.com/in/himanshu-patel-183b5b18/",
+      instagram : "https://www.instagram.com/himanshupatelxyz/",
+      github: "/",
+    }
+  ]
   return (
     <>
       <Navbar />

@@ -375,13 +375,15 @@ export default function Home() {
             <input className="w-full text-xl bg-transparent outline-none focus:border-none  p-2 pl-5 placeholder:text-gray-200 placeholder:text-center placeholder:text-lg" type="email" name="email" id="email" placeholder="Get Updates" />
           </div>
 
-
+          {/* <NewsLetter /> */}
           <div className="subscribeBtn w-max h-full bg-black text-grays-200 rounded-full text-gray-300 text-md capitalize font-medium flex py-4 px-7 cursor-pointer hover:scale-95 transition-all duration-300 ease-out active:scale-90 z-20">submit</div>
-        </div>
+        </div> 
 
-
+        
 
       </div>
+
+      
 
       {/* <div className="relative bg-[#000000] w-full h-full flex flex-col justify-end pt-48 md:pt-60 lg:pt-80">
         <NewsLetter />
