@@ -42,12 +42,12 @@ export const metadata = {
     title: "Partners | SparkTheSummer",
     description:
       "Explore the invaluable support from our esteemed sponsors and partners at SparkTheSummer – the premier hackathon hosted by Ganpat University. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
-    url: "https://hackbyte.tech/partners",
+    url: "https://sparkthesummer.tech/partners",
     images:
-      "https://raw.githubusercontent.com/GDSC-UVPCE/SparkTheSummer/main/cdn.png",
-    siteName: "SparkTheSummer - GU Hackathon",
-    type: "website",
-    locale: "en_US",
+    "https://raw.githubusercontent.com/fenilmodi00/SparkTheSummer/main/public/cdn1.png",
+      siteName: "Spark The Summer - Ganpat University Hackathon",
+      locale: "en_US",
+      type: "website",
   },
 };
 
@@ -151,12 +151,14 @@ const Partners = () => {
       </div>
 
       {/* error starts form here */}
-      <div
+      {/* <div
         className="apply-button"
         data-hackathon-slug="sparkthesummer"
         data-button-theme="Light"
         style={{ height: "44px", width: "312px" }}
-      ></div>
+      ></div> */}
+
+      
       {/* <Devfoliobtn /> */}
       <Script
         defer

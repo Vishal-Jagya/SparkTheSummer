@@ -26,10 +26,10 @@ export const metadata = {
       "Discover the exciting prizes at SparkTheSummer! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on Ganpat University's hackathon.",
     url: "https://SparkTheSummer.trch/prizes",
     images:
-      "https://raw.githubusercontent.com/GDSC-UVPCE/SparkTheSummer/main/cdn.png",
-    siteName: "SparkTheSummer - Ganpat University Hackathon",
-    type: "website",
+    "https://raw.githubusercontent.com/fenilmodi00/SparkTheSummer/main/public/cdn1.png",
+    siteName: "Spark The Summer - Ganpat University Hackathon",
     locale: "en_US",
+    type: "website",
   },
 };
 
