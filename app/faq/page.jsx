@@ -48,7 +48,7 @@ export default function FAQ() {
     {
       title: "What is the venue for SparkTheSummer  ?",
       content:
-        "Ganpat University Mehsana, explore our beautiful campus while thinking about innovating some crazy thing.",
+        "Ganpat University Mehsana , explore our beautiful campus while thinking about innovating some crazy thing.",
     },
     {
       title: "What are the prerequisites to participate in this hackathon ?",
