@@ -5,7 +5,7 @@ import venish from "@/public/humansPage/venishPic.jpg";
 import vishal from "@/public/humansPage/vishalPic.jpg";
 import namit from "@/public/humansPage/namitPic.jpg";
 import kanishka  from "@/public/humansPage/kanishkaPic.jpg"
-import Tirth  from "@/public/humansPage/TirthPic.jpg"
+import Tirth  from "@/public/humansPage/tirthPic.jpg"
 import himanshu  from "@/public/humansPage/himanshuPic.png"
 
 
@@ -81,7 +81,7 @@ export default function Team() {
     {
       name: "Tirth Patel",
       role: "PR and Event Management",
-      profilepic: Tirth ,
+      profilepic: Tirth,
       linkedin: "https://www.linkedin.com/in/tirth-patel-1a5b14259/",
       instagram : "https://www.instagram.com/tirth__4935",
       github: " ",
