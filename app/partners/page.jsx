@@ -37,7 +37,7 @@ export const metadata = {
   description:
     "Explore the invaluable support from our esteemed sponsors and partners at SparkTheSummer – the premier hackathon hosted by Ganpat University. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
   keywords:
-    "Sponsors, Partners, Hackathon, IIITDMJ, Hackbyte, Coding, Programming, Tech, Collaboration, Innovation, Community Support, Technology Events",
+    "Sponsors, Partners, sparkthesummer, Hackathon, ganpat university, Hackbyte, Coding, Programming, Tech, Collaboration, Innovation, Community Support, Technology Events",
   openGraph: {
     title: "Partners | SparkTheSummer",
     description:
@@ -98,6 +98,13 @@ const Partners = () => {
       <div
         className="bg-[#101010] flex flex-col items-center min-h-screen 
           lg:px-20 px-4 py-48"
+          style={{
+            backgroundColor: "#000",
+            backgroundImage: "url(/newbackground.png)",
+            backgroundAttachment: "fixed",
+            backgroundSize: "cover",}}
+          
+          
       >
         {/* <ComingSoon /> */}
 

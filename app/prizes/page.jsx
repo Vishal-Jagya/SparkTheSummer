@@ -27,9 +27,9 @@ export const metadata = {
     url: "https://SparkTheSummer.trch/prizes",
     images:
     "https://raw.githubusercontent.com/fenilmodi00/SparkTheSummer/main/public/cdn1.png",
-    siteName: "Spark The Summer - Ganpat University Hackathon",
-    locale: "en_US",
-    type: "website",
+      siteName: "Spark The Summer - Ganpat University Hackathon",
+      locale: "en_US",
+      type: "website",
   },
 };
 

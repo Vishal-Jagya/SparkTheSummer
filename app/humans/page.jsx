@@ -5,6 +5,7 @@ import venish from "@/public/humansPage/venishPic.jpg";
 import vishal from "@/public/humansPage/vishalPic.jpg";
 import namit from "@/public/humansPage/namitPic.jpg";
 import kanishka  from "@/public/humansPage/kanishkaPic.jpg"
+import Tirth  from "@/public/humansPage/TirthPic.jpg"
 import himanshu  from "@/public/humansPage/himanshuPic.png"
 
 
@@ -25,10 +26,10 @@ export const metadata = {
       "Meet the team behind SparkTheSummer 2.0! Discover the faces and roles of the passionate individuals who are working tirelessly to make the hackathon a grand success. Join us and be a part of the team!",
     url: "https://SparkTheSummer.tech/humans",
     images:
-      "https://raw.githubusercontent.com/GDSC-UVPCE/SparkTheSummer/main/cdn.png",
-    siteName: "SparkTheSummer - Ganpat University Hackathon",
-    type: "website",
-    locale: "en_US",
+    "https://raw.githubusercontent.com/fenilmodi00/SparkTheSummer/main/public/cdn1.png",
+      siteName: "Spark The Summer - Ganpat University Hackathon",
+      locale: "en_US",
+      type: "website",
   },
 };
 
@@ -43,7 +44,7 @@ export default function Team() {
       github: "https://github.com/fenilmodi00/",
     },
     {
-      name: "Veanish Sureliya",
+      name: "Venish Sureliya",
       role: "Oragnizer and Media",
       profilepic: venish ,
       linkedin: "https://www.linkedin.com/in/venishsureliya/",
@@ -76,6 +77,14 @@ export default function Team() {
       linkedin: "https://www.linkedin.com/in/kanishka-khandelwal-463432232/",
       instagram : " ",
       github: "https://github.com/Kanishka-2004",
+    },
+    {
+      name: "Tirth Patel",
+      role: "PR and Event Management",
+      profilepic: Tirth ,
+      linkedin: "https://www.linkedin.com/in/tirth-patel-1a5b14259/",
+      instagram : "https://www.instagram.com/tirth__4935",
+      github: " ",
     },
     {
       name: "Himanshu Patel",
