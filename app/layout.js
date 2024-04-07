@@ -16,7 +16,7 @@ export const metadata = {
       "Spark The Summer is the Ganpat University's student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
     url: "https://SparkTheSummer.tech",
     images:
-      "https://raw.githubusercontent.com/GDSC-UVPCE/SparkTheSummer/main/cdn.png",
+      "https://raw.githubusercontent.com/fenilmodi00/SparkTheSummer/main/public/cdn1.png",
     siteName: "Spark The Summer - Ganpat University Hackathon",
     locale: "en_US",
     type: "website",

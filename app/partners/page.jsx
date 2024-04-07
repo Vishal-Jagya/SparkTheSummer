@@ -18,6 +18,7 @@ import edubard from "@/public/partnersPage/edubard.webp";
 import bobble from "@/public/partnersPage/bobble.webp";
 import wolfram from "@/public/partnersPage/wolfram.webp";
 import balsamiq from "@/public/partnersPage/balsamiq.webp";
+import IEEE from "@/public/partnersPage/IEEE.png";
 import Nextgen from "@/public/partnersPage/Nextgen.webp";
 import Finlatics from "@/public/partnersPage/Finlatics.webp";
 import Mongodb from "@/public/partnersPage/Mongodb.webp";
@@ -81,6 +82,14 @@ const inKindSponsorsData = [
   },
 ];
 
+const CommunityPartnersData = [
+  {
+    sponsor: "IEEE GUNI SB",
+    category: "Community Partner",
+    sponsorimgsrc: IEEE,
+    site: "https://edubard.com",
+  }
+];
 const Partners = () => {
   return (
     <>
@@ -109,7 +118,14 @@ const Partners = () => {
             >
               In Kind Sponsors
             </TabsTrigger>
+            <TabsTrigger
+              value="Community Partners"
+              className="sm:p-4 p-2 sm:w-60 w-40 min-[300px]:text-lg sm:text-2xl text-xl leading-7"
+            >
+              Commnity Partners
+            </TabsTrigger>
           </TabsList>
+          
           <TabsContent value="Sponsors">
             <div className="flex flex-wrap justify-center gap-8 xl:gap-12 pt-8">
               {normalSponsorsData.map((sponsor, index) => {
@@ -120,6 +136,13 @@ const Partners = () => {
           <TabsContent value="InKind Sponsors">
             <div className="flex flex-wrap justify-center gap-8 xl:gap-12 pt-8">
               {inKindSponsorsData.map((sponsor, index) => {
+                return <SponsorCard key={index} index={index} {...sponsor} />;
+              })}
+            </div>
+          </TabsContent>
+          <TabsContent value="Community Partners">
+            <div className="flex flex-wrap justify-center gap-8 xl:gap-12 pt-8">
+              {CommunityPartnersData.map((sponsor, index) => {
                 return <SponsorCard key={index} index={index} {...sponsor} />;
               })}
             </div>
