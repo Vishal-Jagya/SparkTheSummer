@@ -15,7 +15,8 @@ export default function Schedule() {
           backgroundColor: "#000",
           backgroundImage: "url(/newbackground.png)",
           backgroundAttachment: "fixed",
-        }}
+          backgroundSize: "cover",}}
+    
       >
         <ComingSoon />
       </div>

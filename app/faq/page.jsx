@@ -18,10 +18,10 @@ export const metadata = {
     description: "Frequently asked questions about SparkTheSummer.",
     url: "https://SparkTheSummer.tech/faq",
     images:
-      "https://raw.githubusercontent.com/GDSC-UVPCE/SparkTheSummer/main/cdn.png",
-    siteName: "SparkTheSummer - Ganpat University Hackathon",
-    type: "website",
-    locale: "en_US",
+    "https://raw.githubusercontent.com/fenilmodi00/SparkTheSummer/main/public/cdn1.png",
+      siteName: "Spark The Summer - Ganpat University Hackathon",
+      locale: "en_US",
+      type: "website",
   },
 };
 
@@ -56,6 +56,7 @@ export default function FAQ() {
         "No prerequisites are required to participate in this hackathon. This event is open to participants of all skill levels.",
     },
     {
+
       title:
         "Is the food and accommodation provided free of charge or are there any associated costs ?",
       content:
@@ -75,6 +76,11 @@ export default function FAQ() {
       <div
         className="bg-[#101010] flex flex-col min-h-screen
           p-4 md:pb-64 lg:px-0 md:pt-24 pt-16"
+          style={{
+            backgroundColor: "#000",
+            backgroundImage: "url(/newbackground.png)",
+            backgroundAttachment: "fixed",
+            backgroundSize: "cover",}}
       >
         <div
           className="w-full h-full flex flex-col gap-24 px-4 pt-20 
