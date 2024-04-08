@@ -87,7 +87,7 @@ const CommunityPartnersData = [
     sponsor: "IEEE GUNI SB",
     category: "Community Partner",
     sponsorimgsrc: IEEE,
-    site: "https://edubard.com",
+    site: "https://uvpce.guni.ac.in/about/ieee-ce",
   }
 ];
 const Partners = () => {

@@ -172,7 +172,7 @@ export default function Home() {
                 />
                 <p className="text-[#FAF8ED] text-[0.75rem] font-[600]">
                   Organised by
-                  <br className="hidden md:block" /> Google developers Student Club UVPCE
+                  <br className="hidden md:block" /> Google DSC UVPCE & IEEE GUNI SB
                 </p>
               </div>
             </div>
