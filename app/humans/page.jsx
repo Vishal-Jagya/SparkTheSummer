@@ -10,9 +10,12 @@ import himanshu  from "@/public/humansPage/himanshuPic.png"
 
 
 
+
+
 import CircleAnimation from "@/components/CircleAnimation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { LampContainer, LampDemo } from "@/components/lamp/lamp";
 
 export const metadata = {
   title: "Humans | SparkTheSummer",
@@ -98,6 +101,7 @@ export default function Team() {
   return (
     <>
       <Navbar />
+      <LampDemo/>
       <div
         className="bg-[#101010] flex flex-col min-h-screen
           px-4 md:px-10 lg:px-20 xl:px-10 2xl:px-48 py-40" 
@@ -120,26 +124,26 @@ export default function Team() {
                 THE TEAM
               </p>
             </div>
-            <p
+            {/* <p
               className="text-[#F5F0D8] text-center text-[2.5rem] font-normal 
                 md:text-[4rem] xl:text-[5rem] xl:leading-[6.25rem] xl:tracking-[-0.1rem]"
             >
               Meet the humans of
               <br /> SparkTheSummer 
-            </p>
+            </p> */}
           </div>
-          <p
+          {/* <p
             className="w-full lg:max-w-[80%] text-[#F5F0D8] font-[Inter] 
               text-center font-normal text-[1.25rem] "
           >
             We're a small team that loves to create great experiences and make
             meaningful connections between builders and customers. Join our
             remote ream!
-          </p>
+          </p> */}
         </div>
 
 
-     
+      
 
         <div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 
